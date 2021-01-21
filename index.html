@@ -17,6 +17,7 @@
 </head>
 
 <body class="bg-light">
+    <br>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #5babe4;">
         <div class="container">
@@ -37,8 +38,8 @@
     </nav>
 
     <!-- Cases and Chart -->
-    <div class="bg-light">
-        <div class="container mt-5 pt-5 pb-5" style="background-color: lightgray;">
+    <div class="bg-light ">
+        <div class="container mt-5 pt-5 pb-5 shadow p-3 mb-5 bg-white rounded" >
             <div class="row">
                 <div class="col">
                     <h2>Cases in city Parts of South Korea</h2>
@@ -90,7 +91,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <div class="row">
                 <div class="col">
                     <!-- CHARTJS -->
@@ -104,62 +105,107 @@
             </div>
         </div>
     </div>
-    
 
-    
-        <!-- Information -->
+
+
+    <!-- Information -->
     <div class="bg-light">
-    <div class="container pt-5 bg-white">
-        <div class="row">
-            <div class="col text-center">
-                <h2>Corona Virus Safety</h2>
+        <div class="container bg-white">
+            <div class="row shadow p-3 mb-5 bg-white rounded">
+                <div class="col text-center ">
+                    <h2>Corona Virus Safety</h2>
 
-            </div>
-            <div class="col-5">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner h-100">
-                      <div class="carousel-item active">
-                        <img src="assets/11.jpg" class="d-block w-100" alt="Information 1">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/2.gif" class="d-block w-100" alt="Information 2">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/3.gif" class="d-block w-100" alt="Information 3">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/4.gif" class="d-block w-100" alt="Information 4">
-                      </div>
+                    <div class="card-group ">
+                        <div class="card border-white">
+                            <img src="assets/social-distancing.png" class="card-img-top p-4" alt="Social distancing">
+                            <div class="card-body">
+                                <p class="card-text"> <strong> Keep distance of 1-2 metres and wear mask </strong></p>
+
+                            </div>
+                        </div>
+                        <div class="card border-white">
+                            <img src="assets/hand-wash.png" class="card-img-top p-4" alt="Cuci tangan">
+                            <div class="card-body">
+                                <p class="card-text"> <strong> Frequently wash your hands</strong></p>
+
+                            </div>
+                        </div>
+                        <div class="card border-white">
+                            <img src="assets/fever.png" class="card-img-top p-4" alt="Sakit">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Stay home if you're feeling unwell</strong></p>
+
+                            </div>
+                        </div>
+                        <div class="card border-white">
+                            <img src="assets/ambulance.png" class="card-img-top p-4" alt="Ambulance">
+                            <div class="card-body">
+                                <p class="card-text"><strong>Go to the hospital if you're above 38 degrees for up to 14 days</strong></p>
+
+                            </div>
+                        </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </a>
-                  </div>
-            </div>
-        </div>
 
-    </div>
+                </div>
+                <div class="col-5">
+                    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner h-100">
+                            <div class="carousel-item active">
+                                <img src="assets/1.gif" class="d-block w-100" alt="Information 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/2.gif" class="d-block w-100" alt="Information 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/3.gif" class="d-block w-100" alt="Information 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/4.gif" class="d-block w-100" alt="Information 4">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- Footer -->
     <footer class="mt-5">
         <div class="text-black " style="background-color: #5babe4;">
-            <div class="row">
+            <div class="row ps-5 pt-3">
+                <div class="col-2">
+                    <p>Community Health Center </p>
+                </div>
                 <div class="col">
-                    <p>&copy; Copyright </p>
+                    <p>Call Center &nbsp;&nbsp;&nbsp;1339 | Directory assistance (Korea Info Service)
+                        &nbsp;&nbsp;&nbsp;114 |
+                        Ambulance &nbsp;&nbsp;&nbsp;119
+                    </p>
                 </div>
             </div>
+            <div class="row ps-5">
+                <div class="col">
+                    <p>&copy; Copyright by Minister Of Health and Welfare. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
         </div>
     </footer>
 
